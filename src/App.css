@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+  background-color: rgb(241 245 249);
+  min-height: 100vh;
+}
+
+h1 {
+  color: #c2185b;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 2rem;
+}
+
+.navbar p {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.body_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.body_container p {
+  letter-spacing: 0.4rem;
+}
